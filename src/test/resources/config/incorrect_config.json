@@ -1,0 +1,54 @@
+{
+  "columns": 4,
+  "rows": 4,
+  "symbs": {
+    "A": {
+      "reward_multiplier": 5,
+      "type": "standard"
+    },
+    "B": {
+      "reward_multiplier": 3,
+      "type": "standard"
+    },
+    "C": {
+      "reward_multiplier": 2.5,
+      "type": "standard"
+    },
+    "D": {
+      "reward_multiplier": 2,
+      "type": "standard"
+    },
+    "E": {
+      "reward_multiplier": 1.2,
+      "type": "standard"
+    },
+    "F": {
+      "reward_multiplier": 1,
+      "type": "standard"
+    },
+    "10x": {
+      "reward_multiplier": 10,
+      "type": "bonus",
+      "impact": "multiply_reward"
+    },
+    "5x": {
+      "reward_multiplier": 5,
+      "type": "bonus",
+      "impact": "multiply_reward"
+    },
+    "+1000": {
+      "extra": 1000,
+      "type": "bonus",
+      "impact": "extra_bonus"
+    },
+    "+500": {
+      "extra": 500,
+      "type": "bonus",
+      "impact": "extra_bonus"
+    },
+    "MISS": {
+      "type": "bonus",
+      "impact": "miss"
+    }
+  }
+}
